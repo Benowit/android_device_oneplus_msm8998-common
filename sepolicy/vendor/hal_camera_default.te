@@ -16,3 +16,5 @@ allow hal_camera_default sysfs:file { r_file_perms };
 set_prop(hal_camera_default, diag_prop);
 
 allow hal_camera_default camera_data_file:file { getattr open read };
+get_prop(hal_camera_default, vendor_system_prop)
+set_prop(hal_camera_default, diag_prop)
