@@ -88,6 +88,7 @@ TARGET_KERNEL_CONFIG := lineage_oneplus5_defconfig
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+TARGET_USE_QTI_BT_STACK := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
